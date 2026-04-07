@@ -1,0 +1,8 @@
+git remote add upstream https://github.com/claude-code-best/claude-code.git
+git fetch upstream
+# git checkout your-feature-branch
+# 将上游代码合并进来
+git merge upstream/main
+# 推送到你的远程仓库
+git push
+
